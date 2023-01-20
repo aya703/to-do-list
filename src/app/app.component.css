@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  padding: 15px;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+li:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.odd {
+  background-color: #e0b26f;
+}
+
+.over {
+  background-color: #c377b6;
+  border: #da7f83 dashed 2px;
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+mat-card > .over {
+  background-color: #ffccbc;
+}
+
+.input-container {
+  background-color: white;
+  border-radius: 4px;
+}
+
+::ng-deep
+  .mat-mdc-text-field-wrapper.mdc-text-field--outlined
+  .mat-mdc-form-field-infix {
+  padding-top: 5px;
+  min-height: auto;
+  padding-bottom: 5px;
+}
